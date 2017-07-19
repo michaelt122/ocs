@@ -46,15 +46,15 @@ h3 {
 
 .button-box {
 	display: inline-block;
-	height: 300px;
-	width: 300px;
+	height: 350px;
+	width: 350px;
 	margin: 50px 30px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .button {
-	height: 300px;
-	width: 300px;
+	height: 350px;
+	width: 350px;
 	border-radius: 100%;
 }
 
