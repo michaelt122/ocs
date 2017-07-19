@@ -14,10 +14,9 @@
 }
 
 #cover-content {
-  box-sizing: border-box;
   text-align: center;
   width: 70%;
-  margin: 35px auto;
+  margin: 55px auto;
 }
 
 h1 {
