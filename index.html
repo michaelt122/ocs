@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Competitive Soundboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    function play(sound) {
+    var audio = document.getElementById(sound);
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+    }
+}
+  </script>
+</head>
+<body>
+
+<div id="cover">
+  <div id="cover-content">
+    <h1>Overwatch</h1>
+	<h2>Competitive Soundboard</h2>
+  </div>
+</div>
+<div id="main">
+  <div class="button-box">
+  <audio id="cry" src="cry.mp3"></audio>
+	<a class="button-link" onclick="play('cry')"><img src="baby.jpg" class="button"></a>
+  </div>
+  <div class="button-box">
+  <audio id="vacuum" src="vacuum.mp3"></audio>
+	<a class="button-link" onclick="play('vacuum')"><img src="vacuum.jpg" class="button"></a>
+  </div>
+</div>
+</body>
+</html> 
