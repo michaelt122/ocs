@@ -64,3 +64,27 @@ h3 {
 .button:active {
 	opacity: .5;
 }
+
+#footer {
+  height: 80px;
+  background-image: url(overwatch-black.jpg);
+  background-size: cover;
+  background-position: 50% 35%;
+  text-align: center;
+  overflow: auto;
+  margin-top: 40px;
+}
+
+#gt-link-txt{
+	margin: 20px auto;
+}
+
+#gt-link{
+	color: white;
+	text-decoration: none;
+}
+
+a#gt-link:hover {
+	color: grey;
+
+}
