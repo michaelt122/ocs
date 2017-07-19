@@ -17,13 +17,13 @@
   box-sizing: border-box;
   text-align: center;
   width: 70%;
-  margin: 60px auto;
+  margin: 20px auto;
 }
 
 h1 {
   font-family: Abel;
   text-transform: uppercase;
-  font-size: 500%;
+  font-size: 700%;
   font-weight: bold;
   color: white;
 }
@@ -31,6 +31,7 @@ h1 {
 h2 {
 	font-family: Raleway;
 	color: white;
+	font-size: 200%;
 }
 
 #main {
