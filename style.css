@@ -8,7 +8,7 @@
   width: 100%;
   position: relative;
   overflow: auto;
-  background-image: url(overwatch-black.jpg);
+  background-image: url(images/overwatch-black.jpg);
   background-size: cover;
   background-position: 50% 35%;
 }
@@ -67,12 +67,12 @@ h3 {
 
 #footer {
   height: 80px;
-  background-image: url(overwatch-black.jpg);
+  background-image: url(images/overwatch-black.jpg);
   background-size: cover;
   background-position: 50% 35%;
   text-align: center;
   overflow: auto;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 #gt-link-txt{
